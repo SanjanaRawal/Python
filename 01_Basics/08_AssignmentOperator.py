@@ -1,0 +1,11 @@
+a = 49
+print("a = " , a)
+a += 15
+print(" a+= 15 is" , a)
+print("a = " , a)
+a -= 10
+print(" a -= 10 is" , a)
+print("a = " , a)
+a *= 17
+print(" a *= 17 is" , a)
+print("a = " , a)
