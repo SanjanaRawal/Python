@@ -1,0 +1,12 @@
+a = (123 , "abc" , "  " , 90.99 , False)
+print(a)
+print(type(a))
+#Slicing in tuples
+print(a[:])
+print(a[::])
+print(a[::-1])
+print(a[1:5:2])
+print(a[2:4:3])
+print(a[0:len(a):2])
+print(a[len(a) : 2 : -1])
+print(a[8:1:-2])
