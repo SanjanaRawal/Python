@@ -1,0 +1,15 @@
+while True :
+    print("Enter 1st number , operation , 2nd number : ")
+    num1 = int(input())
+    op = input()
+    num2 = int(input())
+    if op == "+" : print(num1 + num2)
+    elif op == "-" : print(num1 - num2)
+    elif op == "*" : print(num1*num2)
+    elif op == "/" : print(num1/num2)
+    elif op == "%" : print(num1%num2)
+    elif op == "//" : print(num1//num2)
+    elif op == "**" : print(num1**num2)
+    else : print("Invalid operation.")
+    ch = input("Do you want to continue ? Yes or No? ")
+    if ch.lower()=="no" : break
