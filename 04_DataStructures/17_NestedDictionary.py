@@ -1,0 +1,17 @@
+nd = { 1 : { "Name" : "ABC" , "Age" : 14} ,
+       2 : { "Name" : "XYZ" , "Class" : 4 } }
+print(nd)
+print(nd[1])
+print(nd[2])
+print(nd.keys())
+print(nd.values())
+print(nd.items())
+print(nd[1].keys())
+print(nd[1].values())
+print(nd[2].keys())
+print(nd[2].values())
+print(nd[2].items())
+print(nd[1]["Name"])
+print(nd[1]["Age"])
+print(nd[2]["Name"])
+print(nd[2]["Class"])
