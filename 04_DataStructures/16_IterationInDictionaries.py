@@ -3,6 +3,8 @@ dict1 = {"Name" : "ABC " , "Age" : 23 , "RollNo" : 45 , "Weight" : 56.9 , "Pass"
 #print all key names one by one
 for i in dict1 :
     print(i)
+for i in dict1.keys() :
+    print(i)
 
 #print all values individually
 #Method one

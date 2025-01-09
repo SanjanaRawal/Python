@@ -5,7 +5,7 @@ print(a)
 #remove specific value
 a.remove("Namaste")
 print(a)
-#same as remove
+#same as remove , doesn't give error
 a.discard("WORLD")
 print(a)
 #remove any random value
@@ -69,6 +69,4 @@ print(s1.symmetric_difference(s2))
 s1.symmetric_difference_update(s2)
 print(s1)
 
-
-
-
+del s1 #to delete entire set , printing s1 or performing any operations on s1 after it will raise an error

@@ -19,3 +19,8 @@ while i<len(lst) :
     print(i , " " , lst[i])
     i += 1
 
+#list comprehension
+lst2 = [i for i in range(1,11,2)]
+print(lst2)
+lst3 = [i for i in range(1,11,1) if i%2==0]
+print(lst3)

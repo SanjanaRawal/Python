@@ -5,6 +5,7 @@ print(type(dict1))
 print(dict1["Age"])
 dict1["Name"]= "XYZ"
 print(dict1)
-print(dict1["Name"])
+print(dict1["Name"]) #will give error if no such key
+print(dict1.get("Name")) #won't give error , will return none if no such key exist
 print(dict1["Pass"])
 print(type(dict1["Pass"]))

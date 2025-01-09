@@ -33,3 +33,5 @@ a = [5,8,7 , 0 , -8]
 print("Unsorted list : " , a)
 a.sort()
 print("Sorted list : " ,a)
+a.sort(reverse=True)
+print("Descending order : " , a)

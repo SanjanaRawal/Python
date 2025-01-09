@@ -1,5 +1,3 @@
 a = int(input("Enter a number : "))
-if a%2==0 :
-    print("Even")
-else :
-    print("Odd")
+#shorthand if else
+print("Even") if a%2==0 else print("Odd")

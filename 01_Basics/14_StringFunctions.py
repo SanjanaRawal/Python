@@ -45,6 +45,7 @@ print("All spaces? " , str.isspace())
 print("Title cased? " , str.istitle())
 #To check how string ends
 print("Ends with '.'? " , str.endswith("."))
+print(str.endswith(str , 0 , 8))
 #To check how string starts
 print("Starts with 'I' ? " , str.startswith("I"))
 #Lower to upper and vice versa
@@ -59,4 +60,27 @@ print("Right justified as mentioned : \n" , str.rjust(10))
 print("Replace the with d : " , str.replace("the" , "d"))
 #To get last index of a letter
 print("Last index of t is " , str.rindex("t"))
+#To print 1st letter of all words as capital and rest all as lower - title case
+print(str.title())
 
+a = "!!!!Hellooooo!!!!!!!!!!!!!!!"
+print(a.rstrip("!"))
+print(a.replace("o","w"))
+print(a.split("l "))
+b="         "
+print(b.isspace())
+print(b.isprintable())
+c = "\n"
+print(c.isprintable())
+
+s = "Hey my name is {}"
+name = "Sanjana"
+print(s.format(name))
+s1 = "Hey my name is {name}"
+print(s1)
+s2 = f"Hey my name is {name}"
+print(s2)
+s3 = f"Hey my name is {{name}}"
+print(s3)
+print(f"My name is {name}")
+print("My name is {name}")
