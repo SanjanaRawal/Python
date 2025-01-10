@@ -1,0 +1,2 @@
+I'm writing in the file which over writes the previous written text , and from now onwards this text will only be shown in the file.
+This time I'm appending the text , which won't over write but just add this content after the text already in file
