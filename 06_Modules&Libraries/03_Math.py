@@ -21,3 +21,7 @@ print(math.ceil(7.8))
 print(math.floor(7.1))
 print(math.floor(7.8))
 
+#To see all functions available in the module
+print(dir(math))
+
+print(math.nan , type(math.nan))
