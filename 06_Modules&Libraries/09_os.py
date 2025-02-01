@@ -15,3 +15,8 @@ for i in os.listdir("09_directory_made") :
 for i in os.listdir("09_directory_made") :
     print(i)
     print(os.listdir(f"09_directory_made/{i}"))
+
+#To delete a file
+if os.path.exists("11_text") :
+    os.remove("11_text")
+    print("File deleted successfully")
